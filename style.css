@@ -1,0 +1,54 @@
+h1{
+    font-family: lobster, cursive;
+    text-align: center;
+    font-size: 50px;
+}
+h2,p,h3{
+    text-align: center;
+    font-family: monospace;
+}
+h1:hover{
+    font-weight: 600;
+    color: #021B79;
+}
+.card{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 20%;
+}
+.content{
+    margin: 15px 10px 15px 10px;
+    padding: 14px 12px 10px 12px;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 2;
+}
+body{
+    background-image: linear-gradient(to bottom,#0575E6,#021B79);
+}
+.links{
+    display: inline;
+}
+.links a{
+    color: teal;
+}
+.links li a:hover{
+    color: whitesmoke; 
+    font-size: 22px;
+}
+.links img{
+    max-width: 80px;
+    max-height: 76px;
+}
+.head a{
+    font-size: 18px;
+}
+.head a:hover{
+    color: teal;
+    font-size: 22px;
+}
+#in{
+    width: 50px;
+    height: 50px;
+}
